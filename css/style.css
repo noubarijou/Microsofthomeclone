@@ -76,6 +76,15 @@ ul {
     opacity: 0.9;
 }
 
+.dark {
+    color: #fff;
+}
+
+.dark .btn {
+    background: #f4f4f4;
+    color: #333;
+}
+
 .showcase {
     width: 100%;
     height: 400px;
@@ -128,6 +137,7 @@ ul {
     width: 100%;
     height: 350px;
     background: url('/img/xbox.png') no-repeat center center/cover;
+    margin-bottom: 20px;
 }
 
 .xbox .content {
@@ -135,6 +145,28 @@ ul {
     padding: 50px 0 0 30px;
 }
 
-.xbox p {
+.xbox p .carbon p {
     margin: 10px 0 20px;
+}
+
+.carbon {
+    height: 350px;
+    width: 100%;
+    background: url(/img/carbon.jpg) no-repeat center center/cover;
+}
+
+.carbon .content {
+    width: 55%;
+    padding: 100px 0 0 30px;
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0 30px;
+}
+
+.follow * {
+    margin-right: 10px;
 }
